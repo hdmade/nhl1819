@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Wednesday Night Hockey | 728x90</title>
+
+    <link rel="stylesheet" type="text/css" href="https://ads-pd.nbcuni.com/nbcsports/marketing/NHL/2018-2019/WNH/101018_VGK-WSH/728x90_tonight/style.css">
+
+    <meta name="ad.size" content="width=728, height=90">
+    <script type="text/javascript">var clickTag = "https://www.google.com";</script>
+
+</head>
+<body>
+
+    <div id="banner" onclick="javascript:window.open(window.clickTag);">
+
+      <div id="animation">
+        <!-- END FRAME -->
+        <div id="bg2"></div>
+        <div id="mask8">
+          <div id="tunein"></div>
+        </div>
+        <div id="mask7">
+          <div id="teams"></div>
+        </div>
+        <div id="wnh"></div>
+
+        <!-- FRAME 2 / TAGLINE -->
+        <div id="bg1"></div>
+        <div id="mask6">
+          <div id="tag_stage" class="tag"></div>
+        </div>
+        <div id="mask5">
+          <div id="tag_biggest" class="tag"></div>
+        </div>
+        <div id="mask4">
+          <div id="tag_stars" class="tag"></div>
+        </div>
+        <div id="mask3">
+          <div id="tag_brightest" class="tag"></div>
+        </div>
+        <div id="mask2">
+          <div id="tag_teams" class="tag"></div>
+        </div>
+        <div id="mask1">
+          <div id="tag_best" class="tag"></div>
+        </div>
+
+        <!-- FRAME 1 / LARGE LOGO -->
+        <div id="wnh_large"></div>
+
+      </div>        
+
+    </div>
+
+    <!-- Load TweenMax here -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>             
+    <script>
+    $(document).ready(function(){
+        var $animation = $("#animation"),
+
+            $bg1 = $("#bg1"),
+            $bg2 = $("#bg2"),
+            $tag = $(".tag"),
+            $tag_best = $("#tag_best"),
+            $tag_teams = $("#tag_teams"),
+            $tag_brightest = $("#tag_brightest"),
+            $tag_stars = $("#tag_stars"),
+            $tag_biggest = $("#tag_biggest"),
+            $tag_stage = $("#tag_stage"),
+            $teams = $("#teams"),
+            $tunein = $("#tunein"),
+            $wnh_large = $("#wnh_large"),
+            $wnh = $("#wnh"),
+            tl;
+
+        tl = new TimelineMax({repeat:2, repeatDelay:3});
+
+        tl.add("start")
+          .from($animation, 0.5, {autoAlpha:0})
+          
+          .add("frame1")
+          .from($wnh_large, 0.5, {scaleX:0, scaleY:0, opacity:0, ease: Power3.easeOut}, "frame1")
+
+          .add("frame2", "+=1.0")
+          .to($wnh_large, 0.25, {opacity:0}, "frame2")
+          .from($tag_best, 0.25, {xPercent:100, opacity:0}, "frame2+=0.25")
+          .from($tag_teams, 0.25, {xPercent:-100, opacity:0}, "frame2+=0.25")
+          .from($tag_brightest, 0.25, {xPercent:100, opacity:0}, "frame2+=1.0")
+          .from($tag_stars, 0.25, {xPercent:-100, opacity:0}, "frame2+=1.0")
+          .from($tag_biggest, 0.25, {xPercent:100, opacity:0}, "frame2+=1.75")
+          .from($tag_stage, 0.25, {xPercent:-100, opacity:0}, "frame2+=1.75")          
+
+          .add("endframe", "+=1.0")
+          .to($bg1, 0.5, {opacity:0}, "endframe")
+          .to($tag, 0.25, {opacity:0}, "endframe")
+          .from($wnh, 0.5, {scaleX:0, scaleY:0, opacity:0, ease: Power3.easeOut}, "endframe+=0.5")
+          .from($teams, 0.25, {yPercent:100, opacity:0}, "endframe+=0.75")
+          .from($tunein, 0.25, {yPercent:-100, opacity:0}, "endframe+=0.75");
+
+    });
+    </script>
+    
+
+</body>
+</html>
+
