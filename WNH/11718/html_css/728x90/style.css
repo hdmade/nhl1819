@@ -152,7 +152,7 @@ body{
 	position: absolute;
 	left: 280px;
 	top: 11px;
-	width: 323px;
+	width: 335px;
 	height: 29px;
 	overflow: hidden;
 }
@@ -161,7 +161,7 @@ body{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 323px;
+	width: 335px;
 	height: 29px;
 	background: url(images/teams.png) no-repeat;
 }
@@ -170,7 +170,7 @@ body{
 	position: absolute;
 	left: 280px;
 	top: 48px;
-	width: 176px;
+	width: 287px;
 	height: 34px;
 	overflow: hidden;
 }
@@ -179,7 +179,7 @@ body{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 176px;
+	width: 287px;
 	height: 34px;
 	background: url(images/tunein.png) no-repeat;
 }
@@ -196,7 +196,7 @@ body{
 #wnh{
 	position: absolute;
 	left: 124px;
-	top: 4px;
+	top: 3px;
 	width: 136px;
 	height: 83px;
 	background: url(images/wnh.png) no-repeat;
