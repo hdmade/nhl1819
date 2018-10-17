@@ -168,10 +168,10 @@ body{
 
 #mask8{
 	position: absolute;
-	left: 58px;
-	top: 217px;
-	width: 186px;
-	height: 28px;
+	left: 24px;
+	top: 218px;
+	width: 253px;
+	height: 27px;
 	overflow:hidden;
 }
 
@@ -179,8 +179,8 @@ body{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 186px;
-	height: 28px;
+	width: 253px;
+	height: 27px;
 	background: url(images/tunein_tonight.png) no-repeat;
 }
 
