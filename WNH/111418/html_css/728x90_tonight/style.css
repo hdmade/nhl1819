@@ -170,8 +170,8 @@ body{
 	position: absolute;
 	left: 276px;
 	top: 51px;
-	width: 199px;
-	height: 35px;
+	width: 289px;
+	height: 34px
 	overflow: hidden;
 }
 
@@ -179,8 +179,8 @@ body{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 199px;
-	height: 35px;
+	width: 289px;
+	height: 34px;
 	background: url(images/tunein_tonight.png) no-repeat;
 }
 
