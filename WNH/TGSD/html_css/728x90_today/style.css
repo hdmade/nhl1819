@@ -6,200 +6,113 @@ body{
 	margin:0;
 }
 
-#animation{
-	visibility: hidden;
-}
-
 #banner {
 	position: absolute;
 	width: 728px;
 	height: 90px;
-	background-color: #FFFFFF;
+	background-color: #fffaf5;
 	padding: 0px;
 	margin: 0px;
 	overflow: hidden;
-	border: 1px solid #FFFFFF;
+	border: 1px solid #cfdfe1;
+	visibility: hidden;
 	box-sizing: border-box;
 }
 
-#bg1{
+#bg_left {
 	position: absolute;
-	left: 0px;
 	top: 0px;
+	left: -540px;
+	width: 540px;
+	height: 90px;
+	background-image: url(images/bg_left.jpg);
+}
+
+#bg_right {
+	position: absolute;
+	top: 0px;
+	left: 728px;
+	width: 540px;
+	height: 90px;
+	background-image: url(images/bg_right.jpg);
+}
+
+#event_logo {
+	position: absolute;
+	opacity:0;
+	top: 0px;
+	left: 0px;
 	width: 728px;
 	height: 90px;
-	background: url(images/bg1.jpg) no-repeat;
+	background-image: url(images/event_logo.png);
 }
 
-#bg2{
+#day {
 	position: absolute;
-	left: 0px;
+	opacity:0;
 	top: 0px;
+	left: -30px;
 	width: 728px;
 	height: 90px;
-	background: url(images/bg2.jpg) no-repeat;
+	background-image: url(images/day.png);
 }
 
-#mask1{
+#time {
 	position: absolute;
-	left: 142px;
-	top: 11px;
-	width: 66px;
-	height: 32px;
-	overflow: hidden;
-}
-
-#tag_best{
-	position: absolute;
-	left: 0px;
+	opacity:0;
 	top: 0px;
-	width: 66px;
-	height: 32px;
-	background: url(images/tag_best.png) no-repeat;
+	left: 30px;
+	width: 728px;
+	height: 90px;
+	background-image: url(images/time.png);
 }
 
-#mask2{
+#opening_frame {
 	position: absolute;
-	left: 217px;
-	top: 11px;
-	width: 101px;
-	height: 32px;
-	overflow: hidden;
-}
-
-#tag_teams{
-	position: absolute;
-	left: 0px;
 	top: 0px;
-	width: 101px;
-	height: 32px;
-	background: url(images/tag_teams.png) no-repeat;
-}
-
-#mask3{
-	position: absolute;
-	left: 335px;
-	top: 11px;
-	width: 150px;
-	height: 32px;
-	overflow: hidden;
-}
-
-#tag_brightest{
-	position: absolute;
 	left: 0px;
+	width: 1258px;
+	height: 90px;
+	background-image: url(images/opening_frame.jpg);
+}
+
+#player_left {
+	position: absolute;
+	opacity:0;
 	top: 0px;
-	width: 150px;
-	height: 32px;
-	background: url(images/tag_brightest.png) no-repeat;
+	left: -70px;
+	width: 728px;
+	height: 90px;
+	background-image: url(images/player_left.png);
 }
 
-#mask4{
+#player_right {
 	position: absolute;
-	left: 494px;
-	top: 11px;
-	width: 94px;
-	height: 32px;
-	overflow: hidden;
-}
-
-#tag_stars{
-	position: absolute;
-	left: 0px;
+	opacity:0;
 	top: 0px;
-	width: 94px;
-	height: 32px;
-	background: url(images/tag_stars.png) no-repeat;
+	left: 70px;
+	width: 728px;
+	height: 90px;
+	background-image: url(images/player_right.png);
 }
 
-#mask5{
+#team1_name {
 	position: absolute;
-	left: 252px;
-	top: 51px;
-	width: 125px;
-	height: 32px;
-	overflow: hidden;
-}
-
-#tag_biggest{
-	position: absolute;
-	left: 0px;
+	opacity:0;
 	top: 0px;
-	width: 125px;
-	height: 32px;
-	background: url(images/tag_biggest.png) no-repeat;
+	left: -30px;
+	width: 728px;
+	height: 90px;
+	background-image: url(images/team1_name.png);
 }
 
-#mask6{
+#team2_name {
 	position: absolute;
-	left: 386px;
-	top: 51px;
-	width: 92px;
-	height: 32px;
-	overflow: hidden;
-}
-
-#tag_stage{
-	position: absolute;
-	left: 0px;
+	opacity:0;
 	top: 0px;
-	width: 92px;
-	height: 32px;
-	background: url(images/tag_stage.png) no-repeat;
+	left: 30px;
+	width: 728px;
+	height: 90px;
+	background-image: url(images/team2_name.png);
 }
-
-#mask7{
-	position: absolute;
-	left: 276px;
-	top: 12px;
-	width: 338px;
-	height: 29px;
-	overflow: hidden;
-}
-
-#teams{
-	position: absolute;
-	left: 0px;
-	top: 0px;
-	width: 338px;
-	height: 29px;
-	background: url(images/teams.png) no-repeat;
-}
-
-#mask8{
-	position: absolute;
-	left: 276px;
-	top: 51px;
-	width: 289px;
-	height: 34px
-	overflow: hidden;
-}
-
-#tunein{
-	position: absolute;
-	left: 0px;
-	top: 0px;
-	width: 289px;
-	height: 34px;
-	background: url(images/tunein_tonight.png) no-repeat;
-}
-
-#wnh_large{
-	position: absolute;
-	left: 47px;
-	top: 8px;
-	width: 634px;
-	height: 77px;
-	background: url(images/wnh_large.png) no-repeat;
-}
-
-#wnh{
-	position: absolute;
-	left: 124px;
-	top: 4px;
-	width: 136px;
-	height: 83px;
-	background: url(images/wnh.png) no-repeat;
-}
-
 

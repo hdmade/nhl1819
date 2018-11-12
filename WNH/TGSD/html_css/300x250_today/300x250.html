@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 
-    <title>NFL Thanksgiving 2018 | 160x600</title>
+    <title>NFL Thanksgiving 2018 | 728x90</title>
 
     <link rel="stylesheet" type="text/css" href="style.css">
 
@@ -24,7 +24,8 @@
 
         <div id="bg_left"></div>
         <div id="bg_right"></div>
-                
+        
+        
         <div id="player_left"></div>
 		    <div id="player_right"></div>
 			  
@@ -74,11 +75,11 @@
 
           .from($opening_frame, .5, {opacity:0, ease: Power1.easeOut}, "banner")
 
-          .to($opening_frame, 1, {y:-260, ease: Power1.easeOut}, "banner+=2.25")
+          .to($opening_frame, 1, {x:-270, ease: Power1.easeOut}, "banner+=2.25")
 
-          .to($bg_left, .75, {y:300, ease: Power1.easeOut}, "banner+=5")
+          .to($bg_left, .75, {x:150, ease: Power1.easeOut}, "banner+=5")
 
-          .to($bg_right, .75, {y:-300, ease: Power1.easeOut}, "banner+=5")
+          .to($bg_right, .75, {x:-150, ease: Power1.easeOut}, "banner+=5")
 
           .to($player_left, .5, {x:70, opacity:1, ease: Power1.easeOut}, "banner+=5.5")
 
