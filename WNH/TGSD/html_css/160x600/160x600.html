@@ -2,51 +2,40 @@
 <html lang="en">
 <head>
 
-    <title>Wednesday Night Hockey | 160x600</title>
+    <title>NFL Thanksgiving 2018 | 160x600</title>
 
     <link rel="stylesheet" type="text/css" href="style.css">
 
-    <meta name="ad.size" content="width=160, height=600">
-    <script type="text/javascript">var clickTag = "https://www.google.com";</script>
+    <meta name="ad.size" content="width=728, height=90">
+    <script type="text/javascript">
+    var clickTag = "https://www.doubleclickbygoogle.com/";
+  </script>
+
 
 </head>
 <body>
 
-    <div id="banner" onclick="javascript:window.open(window.clickTag);">
+    <div id="banner">
+          <a href="javascript:window.open(window.clickTag)">
 
-      <div id="animation">
-        <!-- END FRAME -->
-        <div id="bg2"></div>
-        <div id="mask8">
-          <div id="tunein"></div>
-        </div>
-        <div id="mask7">
-          <div id="teams"></div>
-        </div>
+        <!-- DIVS -->
 
-        <!-- FRAME 1 / LOGO + TAGLINE -->
-        <div id="bg1"></div>
-        <div id="mask6">
-          <div id="tag_stage" class="tag"></div>
-        </div>
-        <div id="mask5">
-          <div id="tag_biggest" class="tag"></div>
-        </div>
-        <div id="mask4">
-          <div id="tag_stars" class="tag"></div>
-        </div>
-        <div id="mask3">
-          <div id="tag_brightest" class="tag"></div>
-        </div>
-        <div id="mask2">
-          <div id="tag_teams" class="tag"></div>
-        </div>
-        <div id="mask1">
-          <div id="tag_best" class="tag"></div>
-        </div>
-        <div id="wnh"></div>
+        <div id="opening_frame"></div>
 
-      </div>        
+        <div id="bg_left"></div>
+        <div id="bg_right"></div>
+                
+        <div id="player_left"></div>
+		    <div id="player_right"></div>
+			  
+        <div id="team1_name"></div>
+        <div id="team2_name"></div>
+
+        <div id="day"></div>
+        <div id="time"></div>
+
+        <div id="event_logo"></div>
+        
 
     </div>
 
@@ -56,44 +45,59 @@
     <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>             
     <script>
     $(document).ready(function(){
-        var $animation = $("#animation"),
 
-            $bg1 = $("#bg1"),
-            $bg2 = $("#bg2"),          
-            $tag = $(".tag"),
-            $tag_best = $("#tag_best"),
-            $tag_teams = $("#tag_teams"),
-            $tag_brightest = $("#tag_brightest"),
-            $tag_stars = $("#tag_stars"),
-            $tag_biggest = $("#tag_biggest"),
-            $tag_stage = $("#tag_stage"),
-            $teams = $("#teams"),
-            $tunein = $("#tunein"),
-            $wnh = $("#wnh"),
+        var $banner = $("#banner"),
+
+            $opening_frame = $("#opening_frame"),
+
+            $event_logo = $("#event_logo"),
+            
+            $team1_name = $("#team1_name"),
+            $team2_name = $("#team2_name"),
+
+            $time = $("#time"),
+            $day = $("#day"),
+
+            $player_left = $("#player_left"),
+            $player_right = $("#player_right"),
+
+            $bg_left = $("#bg_left"),
+            $bg_right = $("#bg_right"),
+
+            
             tl;
 
-        tl = new TimelineMax({repeat:2, repeatDelay:3});
+        tl = new TimelineMax({repeat:2, repeatDelay:8});
 
-        tl.add("start")
-          .from($animation, 0.5, {autoAlpha:0})
-          
-          .add("frame1")
-          .from($wnh, 0.5, {scaleX:0, scaleY:0, opacity:0, ease: Power3.easeOut}, "frame1")
+        tl.add("banner", "+=0.25")
+          .to($banner, 0.5, {autoAlpha:1}, "banner")
 
-          .add("frame2", "+=1.0")
-          .from($tag_best, 0.25, {yPercent:100, opacity:0}, "frame2+=0.25")
-          .from($tag_teams, 0.25, {yPercent:-100, opacity:0}, "frame2+=0.25")
-          .from($tag_brightest, 0.25, {yPercent:100, opacity:0}, "frame2+=1.0")
-          .from($tag_stars, 0.25, {yPercent:-100, opacity:0}, "frame2+=1.0")
-          .from($tag_biggest, 0.25, {yPercent:100, opacity:0}, "frame2+=1.75")
-          .from($tag_stage, 0.25, {yPercent:-100, opacity:0}, "frame2+=1.75")          
+          .from($opening_frame, .5, {opacity:0, ease: Power1.easeOut}, "banner")
 
-          .add("endframe", "+=1.0")
-          .to($wnh, 0.25, {y:-71}, "endframe")
-          .to($bg1, 0.5, {opacity:0}, "endframe")
-          .to($tag, 0.25, {opacity:0}, "endframe")
-          .from($teams, 0.25, {yPercent:100, opacity:0}, "endframe+=0.5")
-          .from($tunein, 0.25, {yPercent:-100, opacity:0}, "endframe+=0.5");
+          .to($opening_frame, 2.5, {y:-260, ease: Power1.easeOut}, "banner+=1.25")
+
+          .to($bg_left, .75, {y:300, ease: Power1.easeOut}, "banner+=5")
+
+          .to($bg_right, .75, {y:-300, ease: Power1.easeOut}, "banner+=5")
+
+          .to($player_left, .5, {x:70, opacity:1, ease: Power1.easeOut}, "banner+=5.5")
+
+          .to($player_right, .5, {x:-70, opacity:1, ease: Power1.easeOut}, "banner+=5.5")
+
+          .to($event_logo, .5, {opacity:1, ease: Power1.easeOut}, "banner+=5.5")
+
+          .to($team1_name, .5, {x:30, opacity:1, ease: Power1.easeOut}, "banner+=5.75")
+
+          .to($team2_name, .5, {x:-30, opacity:1, ease: Power1.easeOut}, "banner+=5.75")
+
+          .to($day, .5, {x:32, opacity:1, ease: Power1.easeOut}, "banner+=6")
+
+          .to($time, .5, {x:-28, opacity:1, ease: Power1.easeOut}, "banner+=6")
+
+
+
+          ;
+
 
     });
     </script>
