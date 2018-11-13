@@ -150,7 +150,7 @@ body{
 
 #mask7{
 	position: absolute;
-	left: 18px;
+	left: 26px;
 	top: 188px;
 	width: 281px;
 	height: 24px;
@@ -161,15 +161,15 @@ body{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 265px;
+	width: 248px;
 	height: 24px;
 	background: url(images/teams.png) no-repeat;
 }
 
 #mask8{
 	position: absolute;
-	left: 37px;
-	top: 217px;
+	left: 36px;
+	top: 219px;
 	width: 228px;
 	height: 27px;
 	overflow:hidden;
