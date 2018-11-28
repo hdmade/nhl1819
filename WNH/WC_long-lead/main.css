@@ -1,0 +1,84 @@
+@charset "UTF-8";
+/* CSS Document */
+
+video::-webkit-media-controls { opacity: .5;}
+video::-webkit-media-controls-fullscreen-button {display: none;}
+video::-webkit-media-controls-play-button {}
+video::-webkit-media-controls-play-button {}
+video::-webkit-media-controls-timeline {}
+video::-webkit-media-controls-current-time-display{}
+video::-webkit-media-controls-time-remaining-display {}
+video::-webkit-media-controls-time-remaining-display {}
+video::-webkit-media-controls-mute-button { display: none;}
+video::-webkit-media-controls-toggle-closed-captions-button { display: none;}
+video::-webkit-media-controls-volume-slider { display: none;}
+
+.art img {
+	position: relative;
+	top: 0px;
+	opacity: 1;
+	-webkit-filter: brightness(.95);
+	-moz-filter: brightness(.95);
+	-o-filter: brightness(.95);
+	-ms-filter: brightness(.95);
+	
+	transition: all .2s ease-in-out;
+}
+
+.art img:hover {
+	top: 0px;
+	opacity: 1;
+	-webkit-filter: brightness(1);
+	-moz-filter: brightness(1);
+	-o-filter: brightness(1);
+	-ms-filter: brightness(1);
+}
+
+
+h1 {color:#333333; font-size: 20px; font-family: 'Archivo Narrow', sans-serif; line-height: 20px; letter-spacing: 0.0666em; text-align: left; font-weight:700; padding:10px 10px 10px 10px; background-color: #999999;}
+
+h2 {color:#333333; font-size: 20px; font-family: 'Archivo Narrow', sans-serif; line-height: 20px; letter-spacing: 0.0666em; text-align: left; font-weight:700; margin-bottom:20px;}
+
+h2 a:hover {color:#333333; font-size: 20px; font-family: 'Archivo Narrow', sans-serif; line-height: 20px; letter-spacing: 0.0666em; text-align: left; font-weight:600; text-decoration: none; background-color: #fdb813;}
+
+h2 a {color:#333333; font-size: 20px; font-family: 'Archivo Narrow', sans-serif; line-height: 20px; letter-spacing: 0.0666em; text-align: left; font-weight:700; text-decoration: none; background-color: #eeeeee; padding:10px 15px 10px 10px;}
+
+h4 {color:#fff; font-size: 16px; font-family: 'Archivo Narrow', sans-serif; line-height: 0px; margin-left: 20px; letter-spacing: 0.0666em; text-align: left; font-weight:400;}
+
+h6 {color:#333333; font-size: 24px; font-family: 'Archivo Narrow', sans-serif; line-height: 20px; margin-left: 0px; letter-spacing: 0.0666em; text-align: left; font-weight:700; padding:10px 10px 10px 10px; background-color: #fdb813; margin-bottom:35px;}
+
+p {color:#eeeeee; font-size: 16px; font-family: 'Archivo Narrow', sans-serif; line-height: 18px; margin-left: 18px; letter-spacing: 0.0666em; text-align: left; font-weight:400; }
+
+p a:hover {color: #fdb813; font-size: 16px; font-family: 'Archivo Narrow', sans-serif; line-height: 18px; margin-left: 3px; letter-spacing: 0.0666em; text-align: left; font-weight:400; text-decoration: underline;}
+
+p a {color: #999999; font-size: 16px; font-family: 'Archivo Narrow', sans-serif; line-height: 18px; margin-left: 0px; letter-spacing: 0.0666em; text-align: left; font-weight:400; text-decoration: none;}
+
+body {
+	background-color:#333;
+	width: 1200px;
+	height: 700px;
+	margin: 0 auto;
+	line-height: 0px;
+}
+
+#logo {
+	position: absolute;
+	background-image:url(images/logo.png);
+	background-repeat: no-repeat;
+	width: 588px;
+	height: 49px;
+	z-index: 0;
+	margin-top: 50px;
+	margin-left: 6px;
+	overflow: visible;
+}
+
+#contentright {
+	position: absolute;
+	background-repeat: no-repeat;
+	width: 1180px;
+	z-index: 1;
+	margin-top: 50px;
+	margin-left: 10px;
+	overflow: visible;
+}
