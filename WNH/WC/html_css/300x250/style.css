@@ -12,8 +12,8 @@ body{
 
 #banner {
 	position: absolute;
-	width: 728px;
-	height: 90px;
+	width: 300px;
+	height: 250px;
 	background-color: #FFFFFF;
 	padding: 0px;
 	margin: 0px;
@@ -26,8 +26,8 @@ body{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 728px;
-	height: 90px;
+	width: 300px;
+	height: 250px;
 	background: url(images/bg1.jpg) no-repeat;
 }
 
@@ -35,8 +35,8 @@ body{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 728px;
-	height: 242px;
+	width: 300px;
+	height: 600px;
 	background: url(images/flurries.png) no-repeat;
 }
 
@@ -45,8 +45,8 @@ body{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 728px;
-	height: 242px;
+	width: 300px;
+	height: 600px;
 	background: url(images/confetti.png) no-repeat;
 }
 
@@ -55,17 +55,17 @@ body{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 728px;
-	height: 90px;
+	width: 300px;
+	height: 250px;
 	background: url(images/bg2.jpg) no-repeat;
 }
 
 #mask1{
 	position: absolute;
-	left: 28px;
-	top: 31px;
-	width: 456px;
-	height: 41px;
+	left: 23px;
+	top: 69px;
+	width: 254px;
+	height: 70px;
 	overflow: hidden;
 }
 
@@ -73,15 +73,15 @@ body{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 456px;
-	height: 41px;
+	width: 254px;
+	height: 70px;
 	background: url(images/tag_stadium.png) no-repeat;
 }
 
 #mask2{
 	position: absolute;
-	left: 470px;
-	top: 31px;
+	left: 42px;
+	top: 153px;
 	width: 216px;
 	height: 28px;
 	overflow: hidden;
@@ -154,10 +154,10 @@ body{
 
 #mask7{
 	position: absolute;
-	left: 266px;
-	top: 15px;
-	width: 343px;
-	height: 26px;
+	left: 33px;
+	top: 177px;
+	width: 233px;
+	height: 20px;
 	overflow: hidden;
 }
 
@@ -172,10 +172,10 @@ body{
 
 #mask8{
 	position: absolute;
-	left: 270px;
-	top: 49px;
-	width: 289px;
-	height: 34px;
+	left: 36px;
+	top: 206px;
+	width: 226px;
+	height: 20px;
 	overflow: hidden;
 }
 
@@ -183,26 +183,26 @@ body{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 289px;
-	height: 34px;
+	width: 226px;
+	height: 20px;
 	background: url(images/tunein.png) no-repeat;
 }
 
 #wnh_large{
 	position: absolute;
-	left: 47px;
-	top: 6px;
-	width: 634px;
-	height: 77px;
-	background: url(images/wnh_large.png) no-repeat;
+	left: 45px;
+	top: 36px;
+	width: 209px;
+	height: 178px;
+	background: url(images/wclogo.png) no-repeat;
 }
 
 #wnh{
 	position: absolute;
-	left: 163px;
-	top: 4px;
-	width: 136px;
-	height: 83px;
+	left: 83px;
+	top: 26px;
+	width: 134px;
+	height: 136px;
 	background: url(images/wnh.png) no-repeat;
 }
 
@@ -210,8 +210,8 @@ body{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 728px;
-	height: 90px;
+	width: 300px;
+	height: 250px;
 	background: url(images/endframe.jpg) no-repeat;
 }
 

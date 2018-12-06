@@ -38,7 +38,6 @@ body{
 	width: 728px;
 	height: 242px;
 	background: url(images/flurries.png) no-repeat;
-	mix-blend-mode: screen;
 }
 
 
@@ -49,7 +48,6 @@ body{
 	width: 728px;
 	height: 242px;
 	background: url(images/confetti.png) no-repeat;
-	mix-blend-mode: screen;
 }
 
 
@@ -152,23 +150,7 @@ body{
 	background: url(images/tag_biggest.png) no-repeat;
 }
 
-#mask6{
-	position: absolute;
-	left: 386px;
-	top: 51px;
-	width: 92px;
-	height: 32px;
-	overflow: hidden;
-}
 
-#tag_stage{
-	position: absolute;
-	left: 0px;
-	top: 0px;
-	width: 92px;
-	height: 32px;
-	background: url(images/tag_stage.png) no-repeat;
-}
 
 #mask7{
 	position: absolute;
