@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>NHL | 300x250</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <meta name="ad.size" content="width=300, height=250">
+    <script type="text/javascript">var clickTag = "https://www.google.com";</script>
+
+</head>
+<body>
+
+    <div id="banner" onclick="javascript:window.open(window.clickTag);">
+
+      <div id="animation">
+
+        <div id="bg3_mask">
+          <div id="bg3"></div>
+        </div>
+
+        <div id="bg4"></div>
+        
+        <div id="teams_mask">
+          <div id="teams"></div>
+        </div>
+
+        <div id="gotw_mask">
+          <div id="gotw"></div>
+        </div>
+
+        <div id="time_mask">
+          <div id="time"></div>
+        </div>
+
+
+        <div id="network"></div>
+        <div id="faceoff"></div>
+        
+        <div id="bg1_mask">
+          <div id="bg1"></div>
+        </div>
+        
+        <div id="lines_right"></div>
+        <div id="lines_left"></div>
+        <div id="lockup"></div>
+        
+      </div>        
+
+    </div>
+
+    <!-- Load TweenMax here -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>             
+    <script>
+    $(document).ready(function(){
+        var $animation = $("#animation"),
+
+            $bg1 = $("#bg1"),
+            $bg2 = $("#bg2"),
+            $bg3 = $("#bg3"),
+            $bg4 = $("#bg4"),
+
+
+            $lines_left = $("#lines_left"),
+            $lines_right = $("#lines_right"),
+            $lockup = $("#lockup"),
+            $network = $("#network"),
+            $tag1 = $("#tag1"),
+            $tag2a = $("#tag2a"),
+            $tag2b = $("#tag2b"),
+            $tag3 = $("#tag3"),
+            $teams = $("#teams"),
+            
+            $gotw = $("#gotw"),
+            $gotw_mask = $("#gotw_mask"),
+            $time = $("#time"),
+            $time_mask = $("#time_mask"),
+            tl;
+
+        tl = new TimelineMax({repeat:1, repeatDelay:3});
+
+        tl.add("start")
+          .from($animation, 0.5, {autoAlpha:0}, "+=0.5") 
+
+          .add("frame2", "+=1.0")
+          .to($lockup, .6, {opacity:0, ease: Power2.easeOut}, "frame2")
+       
+
+          .add("endframe", "+=0")
+        
+          .from($teams, 0.9, {xPercent:-100, ease: Power2.easeOut}, "teams+=0.2")
+          .from($gotw_mask, 0.6, {width:0, ease: Power2.easeOut}, "teams+=0.7")
+          .from($time_mask, .6, {width:0, ease: Power2.easeOut}, "teams+=0.9")
+
+          .from($network, 0.25, {opacity:0}, "+=0.0")
+
+
+          .to($tag3, 0.25, {opacity:0}, "endframe")
+          .to($bg1, .5, {left:300, ease: Power2.easeOut}, "endframe+=0.25")
+         
+          .from($bg4, .9, {opacity:0}, "+=.5")
+          .to($bg4, .9, {opacity:0}, "+=.5")
+          .to($bg4, .9, {opacity:1}, "+=.5")
+          .to($bg4, .9, {opacity:0}, "+=.5")
+          .to($bg4, .9, {opacity:1}, "+=.5");
+         
+
+
+          
+
+
+    });
+    </script>
+    
+
+</body>
+</html>
+

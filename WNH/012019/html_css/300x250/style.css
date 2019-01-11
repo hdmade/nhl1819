@@ -1,0 +1,197 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	background-color:#333;
+	margin:0;
+}
+
+#animation{
+	visibility: hidden;
+}
+
+#banner {
+	position: absolute;
+	width: 300px;
+	height: 250px;
+	background-color: #ffffff;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+	border: 1px solid #000000;
+	box-sizing: border-box;
+}
+
+/* FRAME 1 */
+
+#bg1{
+	position: absolute;
+	left: -30px;
+	top: 0px;
+	width: 348px;
+	height: 250px;
+	background: url(images/bg1.png) no-repeat;
+}
+
+#lockup{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 300px;
+	height: 250px;
+	background: url(images/lockup.jpg) no-repeat;
+}
+
+
+
+/* ENDFRAME */
+
+#bg3_mask {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 300px;
+		height: 250px;
+		overflow: hidden;
+	}
+
+#bg1_mask {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 300px;
+		height: 250px;
+		overflow: hidden;
+	}
+
+
+#bg2_mask {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 300px;
+		height: 250px;
+		overflow: hidden;
+	}
+
+#teams_mask {
+		position: absolute;
+		left: 16px;
+		top: 0px;
+		width: 271px;
+		height: 88px;
+		overflow: hidden;
+	}
+
+
+#teams{
+	position: absolute;
+	left: 0px;
+	top: 15px;
+	width: 268px;
+	height: 67px;
+	background: url(images/teams.png) no-repeat;
+}
+
+#gotw_mask {
+		position: absolute;
+		left: 16px;
+		width: 202px;
+		height: 250px;
+		overflow: hidden;
+	}
+
+#gotw{
+	position: absolute;
+	left: 0px;
+	top: 84px;
+	width: 182px;
+	height: 12px;
+	background: url(images/gotw.png) no-repeat;
+}
+
+#time_mask {
+		position: absolute;
+		left: 16px;
+		width: 182px;
+		height: 250px;
+		overflow: hidden;
+	}
+
+#time{
+	position: absolute;
+	left: 0px;
+	top: 98px;
+	width: 172px;
+	height: 34px;
+	background: url(images/time.png) no-repeat;
+}
+
+
+
+#lines_left{
+	position: absolute;
+	left: -300px;
+	top: 0px;
+	width: 300px;
+	height: 250px;
+	background: url(images/lines_left.png) no-repeat;
+}
+
+#lines_right{
+	position: absolute;
+	left: 300px;
+	top: 0px;
+	width: 600px;
+	height: 250px;
+	background: url(images/lines_right.png) no-repeat;
+}
+
+#bg2{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 300px;
+	height: 250px;
+	background: url(images/bg2.jpg) no-repeat;
+}
+
+
+#faceoff{
+	position: absolute;
+	left: 100px;
+	top: 32px;
+	width: 99px;
+	height: 62px;
+	background: url(images/faceoff.png) no-repeat;
+}
+
+
+#bg3{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 300px;
+	height: 250px;
+	background: url(images/bg3.jpg) no-repeat;
+}
+
+#bg4{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 300px;
+	height: 250px;
+	background: url(images/bg4.jpg) no-repeat;
+}
+
+#network{
+	position: absolute;
+	left: 16px;
+	top: 134px;
+	width: 248px;
+	height: 87px;
+	background: url(images/network.png) no-repeat;
+}
+
+
