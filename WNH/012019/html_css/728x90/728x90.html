@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
 
-    <title>NHL | 300x250</title>
+    <title>NHL | 728x90</title>
 
     <link rel="stylesheet" type="text/css" href="style.css">
 
-    <meta name="ad.size" content="width=300, height=250">
+    <meta name="ad.size" content="width=728, height=90">
     <script type="text/javascript">var clickTag = "https://www.google.com";</script>
 
 </head>
@@ -55,7 +55,6 @@
 
             $bg1 = $("#bg1"),
             $bg2 = $("#bg2"),
-            // $faceoff = $("#faceoff"),
             $bg3 = $("#bg3"),
             $bg4 = $("#bg4"),
 
@@ -102,7 +101,7 @@
           // .from($faceoff, 0.25, {opacity:0}, "endframe+=1.5")
           // .from($bg4, .5, {opacity:0}, "endframe+=1")
           .from($bg4, .9, {opacity:0}, "+=.5")
-          to($bg4, .9, {opacity:0}, "+=.5")
+          .to($bg4, .9, {opacity:0}, "+=.5")
           .to($bg4, .9, {opacity:1}, "+=.5")
           .to($bg4, .9, {opacity:0}, "+=.5")
           .to($bg4, .9, {opacity:1}, "+=.5");
