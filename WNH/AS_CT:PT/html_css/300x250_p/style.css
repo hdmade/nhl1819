@@ -1,0 +1,290 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	background-color:#333;
+	margin:0;
+}
+
+#animation{
+	visibility: hidden;
+}
+
+#banner {
+	position: absolute;
+	width: 300px;
+	height: 250px;
+	background-color: #FFFFFF;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+	border: 1px solid #d2ffff;
+	box-sizing: border-box;
+}
+
+#bg1{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 300px;
+	height: 250px;
+	background: url(images/BG.jpg) no-repeat;
+}
+
+
+#mask2{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 300px;
+	height: 250px;
+	overflow: hidden;
+}
+
+#flurries{
+	position: absolute;
+	opacity: 0.5;
+	left: 0px;
+	top: 0px;
+	width: 300px;
+	height: 600px;
+	background: url(images/white-grid.png) repeat;
+}
+
+
+#glitch_bottom{
+	position: absolute;
+	opacity: 0;
+	left: 0px;
+	top: 166px;
+	width: 300px;
+	height: 84px;
+	background: url(images/glitch_bottom.jpg) no-repeat;
+}
+
+#glitch_mid{
+	position: absolute;
+	opacity: 0;
+	left: 0px;
+	top: 84px;
+	width: 300px;
+	height: 84px;
+	background: url(images/glitch_mid.jpg) no-repeat;
+}
+
+#glitch_top{
+	position: absolute;
+	opacity: 0;
+	left: 0px;
+	top: 0px;
+	width: 300px;
+	height: 84px;
+	background: url(images/glitch_top.jpg) no-repeat;
+}
+
+
+
+
+
+#bg2{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 300px;
+	height: 250px;
+	background: url(images/Play_1.jpg) no-repeat;
+}
+
+#bg3{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 300px;
+	height: 250px;
+	background: url(images/Play_2.jpg) no-repeat;
+}
+
+#mask1{
+	position: absolute;
+	left: 23px;
+	top: 69px;
+	width: 254px;
+	height: 70px;
+	overflow: hidden;
+}
+
+#tag_stadium{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 254px;
+	height: 70px;
+	background: url(images/tag_stadium.png) no-repeat;
+}
+
+#mask2{
+	position: absolute;
+	left: 42px;
+	top: 153px;
+	width: 216px;
+	height: 28px;
+	overflow: hidden;
+}
+
+#tag_heaven{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 216px;
+	height: 28px;
+	background: url(images/tag_heaven.png) no-repeat;
+}
+
+#mask3{
+	position: absolute;
+	left: 335px;
+	top: 11px;
+	width: 150px;
+	height: 32px;
+	overflow: hidden;
+}
+
+#tag_brightest{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 150px;
+	height: 32px;
+	background: url(images/tag_brightest.png) no-repeat;
+}
+
+#mask4{
+	position: absolute;
+	left: 494px;
+	top: 11px;
+	width: 94px;
+	height: 32px;
+	overflow: hidden;
+}
+
+#tag_stars{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 94px;
+	height: 32px;
+	background: url(images/tag_stars.png) no-repeat;
+}
+
+#mask5{
+	position: absolute;
+	left: 252px;
+	top: 51px;
+	width: 125px;
+	height: 32px;
+	overflow: hidden;
+}
+
+#tag_biggest{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 125px;
+	height: 32px;
+	background: url(images/tag_biggest.png) no-repeat;
+}
+
+
+
+#mask7{
+	position: absolute;
+	left: 18px;
+	top: 166px;
+	width: 143px;
+	height: 51px;
+	overflow: hidden;
+}
+
+#teams{
+	position: absolute;
+	opacity: 0.8;
+	left: 0px;
+	top: 0px;
+	width: 143px;
+	height: 51px;
+	background: url(images/date.png) no-repeat;
+}
+
+#mask8{
+	position: absolute;
+	left: 30px;
+	top: 223px;
+	width: 119px;
+	height: 21px;
+	overflow: hidden;
+}
+
+#tunein{
+	position: absolute;
+	opacity: 0.8;
+	left: 0px;
+	top: 0px;
+	width: 119px;
+	height: 21px;
+	background: url(images/network.png) no-repeat;
+}
+
+#wnh_large{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 300px;
+	height: 250px;
+	background: url(images/ASGlogo.png) no-repeat;
+}
+
+#wnh{
+	position: absolute;
+	left: 83px;
+	top: 26px;
+	width: 134px;
+	height: 136px;
+	background: url(images/wnh.png) no-repeat;
+}
+
+#logo_small{
+	position: absolute;
+	left: 11px;
+	top: 9px;
+	width: 155px;
+	height: 143px;
+	background: url(images/ASGprimarymark.png) no-repeat;
+}
+
+#mask9{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 300px;
+	height: 250px;
+	overflow: hidden;
+}
+
+#endframe{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 300px;
+	height: 250px;
+	background: url(images/endframe.jpg) no-repeat;
+}
+
+#finalframe{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 300px;
+	height: 250px;
+	background: url(images/finalframe.jpg) no-repeat;
+}
+

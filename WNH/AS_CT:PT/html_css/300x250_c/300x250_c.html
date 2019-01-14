@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>All Star 2019 | 300x250</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <meta name="ad.size" content="width=300, height=250">
+    <script type="text/javascript">var clickTag = "https://www.google.com";</script>
+
+</head>
+<body>
+
+    <div id="banner" onclick="javascript:window.open(window.clickTag);">
+
+      <div id="animation">
+        <!-- END FRAME -->
+
+        
+        <div id="bg1"></div>
+        <div id="bg2"></div>
+        <div id="bg3"></div>
+
+        <div id="mask9">
+        	<div id="endframe"></div>
+    	</div>
+        
+
+        <!-- FRAME 2 / TAGLINE -->
+<!--         <div id="bg1"></div>
+ -->  
+
+        <!-- FRAME 3 / Endframe -->
+        
+        	
+        <div id="wnh_large"></div>
+       
+
+        <div id="logo_small"></div>
+
+        <div id="mask8">
+          <div id="tunein"></div>
+        </div>
+        <div id="mask7">
+          <div id="teams"></div>
+        </div>
+        <div id="glitch_top"></div>
+        <div id="glitch_mid"></div>
+        <div id="glitch_bottom"></div>
+
+        <div id="finalframe"></div>
+
+
+        
+        <div id="mask-grid">
+			<div id="flurries"></div>
+		</div>
+        
+
+
+
+      </div>        
+
+    </div>
+
+    <!-- Load TweenMax here -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>             
+    <script>
+    $(document).ready(function(){
+        var $animation = $("#animation"),
+
+            $bg1 = $("#bg1"),
+            $bg2 = $("#bg2"),
+            $bg3 = $("#bg3"),
+            $tag = $(".tag"),
+            $flurries = $("#flurries"),
+            $glitch_top = $("#glitch_top"),
+            $glitch_mid = $("#glitch_mid"),
+            $glitch_bottom = $("#glitch_bottom"),
+            $tag_stadium = $("#tag_stadium"),
+            $tag_heaven = $("#tag_heaven"),
+            $tag_brightest = $("#tag_brightest"),
+            $tag_stars = $("#tag_stars"),
+            $tag_biggest = $("#tag_biggest"),
+            $tag_stage = $("#tag_stage"),
+            $teams = $("#teams"),
+            $tunein = $("#tunein"),
+            $wnh_large = $("#wnh_large"),
+            $wnh = $("#wnh"),
+            $endframe = $("#endframe"),
+            $finalframe = $("#finalframe"),
+            $mask9 = $("#mask9"),
+            $logo_small = $("#logo_small"),
+            tl;
+
+        tl = new TimelineMax({repeat:2, repeatDelay:3});
+TweenLite.defaultOverwrite = "none";
+
+        tl.add("start")
+          .from($animation, 0.5, {autoAlpha:0}, "+=0.5")
+          	.from($wnh_large, 0.5, {scaleX:0, scaleY:0, opacity:0, ease: Power3.easeOut}, "start+=0.5")
+          	.from($bg1, 0.5, {autoAlpha:0}, "start+=0")   	
+          	.from($flurries, 0.5, {autoAlpha:0}, "start+=0.5")   	
+          	.from($flurries, 6, {top:-550, ease:SteppedEase.config(6)}, "start+=0.5")
+          	.to($flurries, 0.5, {autoAlpha:0}, "start+=6")   	
+
+
+          
+//start frame
+
+          	.to($wnh_large, 0.25, {autoAlpha:0}, "start+=3")
+          	.from($bg2, 0.25, {autoAlpha:0}, "start+=3.5")
+          	.from($bg3, 2, {autoAlpha:0, ease: RoughEase.ease.config({ template:  Power0.easeNone, strength: 2, points: 20, taper: "none", randomize: true, clamp: false})}, "start+=3.5")
+
+//start frame
+
+          	// .to($bg1, 0.5, {autoAlpha:0}, "start+=6")
+          	// .to($bg2, 0.5, {autoAlpha:0}, "start+=6")
+          	// .to($bg3, 0.5, {autoAlpha:0}, "start+=6")
+
+          	.to($glitch_top, 0.2, {autoAlpha:1}, "start+=6")
+          	.to($glitch_mid, 0.2, {autoAlpha:1}, "start+=6.2")
+          	.to($glitch_bottom, 0.2, {autoAlpha:1}, "start+=6.4")
+
+          	.to($glitch_top, 0.5, {autoAlpha:0}, "start+=6.2")
+          	.to($glitch_mid, 0.5, {autoAlpha:0}, "start+=6.4")
+          	.to($glitch_bottom, 0.5, {autoAlpha:0}, "start+=6.6")
+
+
+          	.from($mask9, .7, {height:0, ease:SteppedEase.config(10)}, "start+=6")
+
+          	.to($endframe, 0.5, {autoAlpha:1}, "start+=6")
+
+          	.to($tag, 0.25, {autoAlpha:0}, "start+=7")
+          
+          
+
+          	.from($wnh, 0.5, {scaleX:0, scaleY:0, autoAlpha:0, ease: Power3.easeOut}, "start+=7")
+          	.from($logo_small, 0.25, {scaleX:0, scaleY:0, opacity:0, ease: Power3.easeOut}, "start+=6.9")
+          	.from($teams, 0.25, {yPercent:100, autoAlpha:0}, "start+=7")
+          	.from($tunein, 0.25, {yPercent:-100, autoAlpha:0}, "start+=7")
+
+			.from($finalframe, 2.6, {autoAlpha:0, ease: RoughEase.ease.config({ template:  Power0.easeNone, strength: 2, points: 20, taper: "none", randomize: true, clamp: false})}, "start+=7.7")
+
+
+          	;
+
+
+    });
+    </script>
+    
+
+</body>
+</html>
+
