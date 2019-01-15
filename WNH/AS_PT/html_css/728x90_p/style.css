@@ -198,10 +198,10 @@ body{
 
 #mask7{
 	position: absolute;
-	left: 213px;
-	top: 16px;
-	width: 258px;
-	height: 28px;
+	left: 252px;
+	top: 10px;
+	width: 207px;
+	height: 35px;
 	overflow: hidden;
 }
 
@@ -210,17 +210,17 @@ body{
 	opacity: 0.8;
 	left: 0px;
 	top: 0px;
-	width: 258px;
-	height: 28px;
+	width: 207px;
+	height: 35px;
 	background: url(images/date.png) no-repeat;
 }
 
 #mask8{
 	position: absolute;
-	left: 213px;
-	top: 48px;
-	width: 199px;
-	height: 34px;
+	left: 253px;
+	top: 51px;
+	width: 97px;
+	height: 28px;
 	overflow: hidden;
 }
 
@@ -229,8 +229,8 @@ body{
 	opacity: 0.8;
 	left: 0px;
 	top: 0px;
-	width: 199px;
-	height: 34px;
+	width: 97px;
+	height: 28px;
 	background: url(images/network.png) no-repeat;
 }
 
@@ -254,7 +254,7 @@ body{
 
 #logo_small{
 	position: absolute;
-	left: 109px;
+	left: 128px;
 	top: 3px;
 	width: 89px;
 	height: 81px;

@@ -198,10 +198,10 @@ body{
 
 #mask7{
 	position: absolute;
-	left: 152px;
-	top: 167px;
-	width: 119px;
-	height: 49px;
+	left: 142px;
+	top: 178px;
+	width: 139px;
+	height: 56px;
 	overflow: hidden;
 }
 
@@ -210,8 +210,8 @@ body{
 	opacity: 0.8;
 	left: 0px;
 	top: 0px;
-	width: 119px;
-	height: 49px;
+	width: 139px;
+	height: 56px;
 	background: url(images/date.png) no-repeat;
 }
 
@@ -255,7 +255,7 @@ body{
 #logo_small{
 	position: absolute;
 	left: 134px;
-	top: 9px;
+	top: 19px;
 	width: 155px;
 	height: 143px;
 	background: url(images/ASGprimarymark.png) no-repeat;
