@@ -199,7 +199,7 @@ body{
 #mask7{
 	position: absolute;
 	left: 252px;
-	top: 10px;
+	top: 11px;
 	width: 207px;
 	height: 35px;
 	overflow: hidden;
@@ -217,10 +217,10 @@ body{
 
 #mask8{
 	position: absolute;
-	left: 251px;
-	top: 50px;
-	width: 161px;
-	height: 41px;
+	left: 253px;
+	top: 49px;
+	width: 97px;
+	height: 28px;
 	overflow: hidden;
 }
 
@@ -229,8 +229,8 @@ body{
 	opacity: 0.8;
 	left: 0px;
 	top: 0px;
-	width: 116px;
-	height: 41px;
+	width: 97px;
+	height: 28px;
 	background: url(images/network.png) no-repeat;
 }
 

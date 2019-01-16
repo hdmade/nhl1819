@@ -190,10 +190,10 @@ body{
 
 #mask7{
 	position: absolute;
-	left: 8px;
-	top: 228px;
-	width: 146px;
-	height: 54px;
+	left: 16px;
+	top: 239.5px;
+	width: 130px;
+	height: 30px;
 	overflow: hidden;
 }
 
@@ -202,17 +202,17 @@ body{
 	opacity: 1;
 	left: 0px;
 	top: 0px;
-	width: 146px;
-	height: 54px;
+	width: 130px;
+	height: 30px;
 	background: url(images/date.png) no-repeat;
 }
 
 #mask8{
 	position: absolute;
-	left: 49px;
-	top: 223px;
-	width: 62px;
-	height: 99px;
+	left: 57px;
+	top: 275px;
+	width: 46px;
+	height: 28px;
 	overflow: hidden;
 }
 
@@ -221,8 +221,8 @@ body{
 	opacity: 1;
 	left: 0px;
 	top: 0px;
-	width: 62px;
-	height: 99px;
+	width: 46px;
+	height: 28px;
 	background: url(images/network.png) no-repeat;
 }
 
@@ -247,7 +247,7 @@ body{
 #logo_small{
 	position: absolute;
 	left: 15px;
-	top: 44px;
+	top: 63px;
 	width: 199px;
 	height: 119px;
 	background: url(images/ASGprimarymark.png) no-repeat;
