@@ -150,9 +150,9 @@ body{
 
 #mask7{
 	position: absolute;
-	left: 33px;
-	top: 137px;
-	width: 95px;
+	left: 9px;
+	top: 157px;
+	width: 143px;
 	height: 49px;
 	overflow: hidden;
 }
@@ -161,17 +161,17 @@ body{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 95px;
+	width: 143px;
 	height: 49px;
 	background: url(images/teams.png) no-repeat;
 }
 
 #mask8{
 	position: absolute;
-	left: 47px;
-	top: 211px;
+	left: 48px;
+	top: 227px;
 	width: 67px;
-	height: 90px;
+	height: 87px;
 	overflow: hidden;
 }
 
@@ -180,7 +180,7 @@ body{
 	left: 0px;
 	top: 0px;
 	width: 67px;
-	height: 90px;
+	height: 87px;
 	background: url(images/tunein.png) no-repeat;
 }
 

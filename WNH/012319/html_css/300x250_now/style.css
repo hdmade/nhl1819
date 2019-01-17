@@ -150,9 +150,9 @@ body{
 
 #mask7{
 	position: absolute;
-	left: 63px;
+	left: 22px;
 	top: 190px;
-	width: 174px;
+	width: 255px;
 	height: 20px;
 	overflow: hidden;
 }
@@ -161,7 +161,7 @@ body{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 174px;
+	width: 255px;
 	height: 20px;
 	background: url(images/teams.png) no-repeat;
 }
@@ -169,7 +169,7 @@ body{
 #mask8{
 	position: absolute;
 	left: 12px;
-	top: 220px;
+	top: 218px;
 	width: 273px;
 	height: 26px;
 	overflow:hidden;

@@ -150,10 +150,10 @@ body{
 
 #mask7{
 	position: absolute;
-	left: 274px;
-	top: 14px;
-	width: 250px;
-	height: 28px;
+	left: 270px;
+	top: 13px;
+	width: 349px;
+	height: 27px;
 	overflow: hidden;
 }
 
@@ -161,17 +161,17 @@ body{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 250px;
-	height: 28px;
+	width: 349px;
+	height: 27px;
 	background: url(images/teams.png) no-repeat;
 }
 
 #mask8{
 	position: absolute;
-	left: 274px;
-	top: 47px;
-	width: 262px;
-	height: 35px;
+	left: 270px;
+	top: 46px;
+	width: 249px;
+	height: 33px;
 	overflow: hidden;
 }
 
@@ -179,8 +179,8 @@ body{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 262px;
-	height: 35px;
+	width: 249px;
+	height: 33px;
 	background: url(images/tunein_now.png) no-repeat;
 }
 
@@ -195,10 +195,10 @@ body{
 
 #wnh{
 	position: absolute;
-	left: 124px;
-	top: 4px;
-	width: 136px;
-	height: 83px;
+	left: 120px;
+	top: 5px;
+	width: 133px;
+	height: 80px;
 	background: url(images/wnh.png) no-repeat;
 }
 
