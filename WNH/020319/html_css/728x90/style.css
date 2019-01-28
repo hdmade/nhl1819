@@ -10,40 +10,10 @@ body{
 	visibility: hidden;
 }
 
-
-#players{
-	position: absolute;
-	left: 0px;
-	top: 0px;
-	width: 300px;
-	height: 250px;
-	background: url(images/players.png) no-repeat;
-}
-
-#starmask{
-		position: absolute;
-		left: 0px;
-		top: 0px;
-		width: 300px;
-		height: 250px;
-		overflow: hidden;
-	}
-
-
-#star{
-	position: absolute;
-	left: 0px;
-	top: 0px;
-	width: 300px;
-	height: 250px;
-	background: url(images/star.png) no-repeat;
-}
-
-
 #banner {
 	position: absolute;
-	width: 300px;
-	height: 250px;
+	width: 728px;
+	height: 90px;
 	background-color: #ffffff;
 	padding: 0px;
 	margin: 0px;
@@ -52,14 +22,52 @@ body{
 	box-sizing: border-box;
 }
 
-/* FRAME 1 */
+
+#players{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 728px;
+	height: 90px;
+	background: url(images/players.png) no-repeat;
+}
+
+#starmask{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 728px;
+		height: 90px;
+		overflow: hidden;
+	}
+
+
+#star{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 728px;
+	height: 90px;
+	background: url(images/star.png) no-repeat;
+}
+
+
+#bg1_mask {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 728px;
+		height: 90px;
+		overflow: hidden;
+	}
+
 
 #bg1{
 	position: absolute;
 	left: -30px;
 	top: 0px;
-	width: 348px;
-	height: 250px;
+	width: 776px;
+	height: 90px;
 	background: url(images/bg1.png) no-repeat;
 }
 
@@ -67,8 +75,8 @@ body{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 300px;
-	height: 250px;
+	width: 728px;
+	height: 90px;
 	background: url(images/lockup.jpg) no-repeat;
 }
 
@@ -76,50 +84,21 @@ body{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 300px;
-	height: 250px;
+	width: 728px;
+	height: 90px;
 	background: url(images/lockup2.jpg) no-repeat;
 }
 
 
 
-
 /* ENDFRAME */
-
-#bg3_mask {
-		position: absolute;
-		left: 0px;
-		top: 0px;
-		width: 300px;
-		height: 250px;
-		overflow: hidden;
-	}
-
-#bg1_mask {
-		position: absolute;
-		left: 0px;
-		top: 0px;
-		width: 300px;
-		height: 250px;
-		overflow: hidden;
-	}
-
-
-#bg2_mask {
-		position: absolute;
-		left: 0px;
-		top: 0px;
-		width: 300px;
-		height: 250px;
-		overflow: hidden;
-	}
 
 #teams_mask {
 		position: absolute;
-		left: 16px;
+		left: 66px;
 		top: 0px;
-		width: 271px;
-		height: 88px;
+		width: 728px;
+		height: 90px;
 		overflow: hidden;
 	}
 
@@ -127,24 +106,24 @@ body{
 #teams{
 	position: absolute;
 	left: 0px;
-	top: 26px;
-	width: 268px;
-	height: 67px;
+	top: 14px;
+	width: 728px;
+	height: 90px;
 	background: url(images/teams.png) no-repeat;
 }
 
 #gotw_mask {
 		position: absolute;
-		left: 16px;
-		width: 202px;
-		height: 250px;
+		left: 67px;
+		width: 728px;
+		height: 90px;
 		overflow: hidden;
 	}
 
 #gotw{
 	position: absolute;
 	left: 0px;
-	top: 94px;
+	top: 43px;
 	width: 182px;
 	height: 12px;
 	background: url(images/gotw.png) no-repeat;
@@ -152,7 +131,7 @@ body{
 
 #time_mask {
 		position: absolute;
-		left: 16px;
+		left: 67px;
 		width: 182px;
 		height: 250px;
 		overflow: hidden;
@@ -161,7 +140,7 @@ body{
 #time{
 	position: absolute;
 	left: 0px;
-	top: 111px;
+	top: 57px;
 	width: 172px;
 	height: 34px;
 	background: url(images/time.png) no-repeat;
@@ -171,7 +150,7 @@ body{
 
 #lines_left{
 	position: absolute;
-	left: -300px;
+	left: -728px;
 	top: 0px;
 	width: 300px;
 	height: 250px;
@@ -180,7 +159,7 @@ body{
 
 #lines_right{
 	position: absolute;
-	left: 300px;
+	left: 728px;
 	top: 0px;
 	width: 600px;
 	height: 250px;
@@ -206,13 +185,22 @@ body{
 	background: url(images/faceoff.png) no-repeat;
 }
 
+#bg3_mask {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 728px;
+		height: 90px;
+		overflow: hidden;
+	}
+
 
 #bg3{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 300px;
-	height: 250px;
+	width: 728px;
+	height: 90px;
 	background: url(images/bg.jpg) no-repeat;
 }
 
@@ -220,15 +208,15 @@ body{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 300px;
-	height: 250px;
+	width: 728px;
+	height: 90px;
 	background: url(images/bg.jpg) no-repeat;
 }
 
 #network{
 	position: absolute;
-	left: 16px;
-	top: 145px;
+	left: 225px;
+	top: 53px;
 	width: 248px;
 	height: 87px;
 	background: url(images/network.png) no-repeat;
