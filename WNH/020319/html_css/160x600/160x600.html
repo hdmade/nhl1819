@@ -94,7 +94,7 @@
         tl.add("start")
           .from($animation, 0.5, {autoAlpha:0}, "+=0.5") 
 
-          .add("frame2", "+=2.5")
+          .add("frame2", "+=1.7")
           .to($lockup, .8, {opacity:0, ease: Power2.easeOut}, "frame2")
        
           .add("endframe", "+=0")
@@ -109,7 +109,7 @@
 
 
           .to($tag3, 0.25, {opacity:0}, "endframe")
-          .to($bg1, .5, {left:160, ease: Power2.easeOut}, "endframe+=0.25")
+          .to($bg1, .5, {left:160, ease: Power2.easeOut}, "endframe+=-.5")
          
           .from($bg4, .9, {opacity:0}, "+=.5")
           .to($bg4, .9, {opacity:0}, "+=.5")

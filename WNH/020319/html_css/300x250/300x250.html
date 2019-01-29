@@ -96,7 +96,8 @@
 
           .add("frame2", "+=2.5")
           .to($lockup, .8, {opacity:0, ease: Power2.easeOut}, "frame2-=1.5")
-          .to($lockup2, .6, {opacity:0, ease: Power2.easeOut}, "frame2+=1")
+          
+          .to($lockup2, .6, {opacity:0, ease: Power2.easeOut}, "frame2+=.5")
        
 
           .add("endframe", "+=0")
@@ -109,9 +110,8 @@
 
           .from($players, 0.8, {opacity:0}, "+=0.0")
 
-
           .to($tag3, 0.25, {opacity:0}, "endframe")
-          .to($bg1, .5, {left:300, ease: Power2.easeOut}, "endframe+=0.25")
+          .to($bg1, .5, {left:300, ease: Power2.easeOut}, "endframe+=-.3")
          
           .from($bg4, .9, {opacity:0}, "+=.5")
           .to($bg4, .9, {opacity:0}, "+=.5")
