@@ -53,22 +53,22 @@ body{
 
 /* FRAME 1 */
 
-#bg1{
+/*#bg1{
 	position: absolute;
 	left: -35px;
 	top: 0px;
 	width: 210px;
 	height: 600px;
 	background: url(images/bg1.png) no-repeat;
-}
+}*/
 
 #lockup{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 160px;
+	width: 480px;
 	height: 600px;
-	background: url(images/lockup.jpg) no-repeat;
+	background: url(images/bg-long.jpg) no-repeat;
 }
 
 
