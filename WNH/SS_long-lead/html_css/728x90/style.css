@@ -152,7 +152,7 @@ body{
 #tagline1{
 	position: absolute;
 	left: -8px;
-	top: -2px;
+	top: -6px;
 	width: 729px;
 	height: 90px;
 	background: url(images/tagline1.png) no-repeat;
@@ -161,7 +161,7 @@ body{
 #tagline2{
 	position: absolute;
 	left: 0px;
-	top: -2px;
+	top: -6px;
 	width: 728px;
 	height: 90px;
 	background: url(images/tagline2.png) no-repeat;
