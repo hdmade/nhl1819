@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>NHL | 300x250</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <meta name="ad.size" content="width=300, height=250">
+    <script type="text/javascript">var clickTag = "https://www.google.com";</script>
+
+</head>
+<body>
+
+    <div id="banner" onclick="javascript:window.open(window.clickTag);">
+
+      <div id="animation">
+
+
+<!-- Frame 1 -->
+        <div id="bgdarkblue"></div>
+        <div id="stars"></div>
+        <div id="logolarge"></div>
+
+
+
+
+<!-- Frame 3 -->
+<!--         <div id="bgtagline"></div>
+        <div id="tagline1"></div>
+        <div id="tagline2"></div>
+ -->
+<!-- orange mask -->       
+        <div id="orangemask">
+          <div id="frameorange"></div>
+        </div>
+        
+        <div id="yellowmask">
+          <div id="frameyellow"></div>
+        </div> 
+
+
+<!-- Frame 3 -->
+        <div id="bgend"></div>
+
+        <div id="ribbons"></div> 
+        <div id="players"></div> 
+        <div id="teams"></div> 
+        <div id="logohoriz"></div>
+      </div>        
+    </div>
+
+    <!-- Load TweenMax here -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>             
+    <script>
+    $(document).ready(function(){
+        var $animation = $("#animation"),
+
+            $bgdarkblue = $("#bgdarkblue"),
+            $stars = $("#stars"),
+            $logolarge = $("#logolarge"),
+
+            $frameorange = $("#frameorange"),
+            $frameyellow = $("#frameyellow"),
+
+            
+            $bgtagline = $("#bgtagline"),
+            $tagline1 = $("#tagline1"),
+            $tagline2 = $("#tagline2"),
+
+            // $fireworks1 = $("#fireworks1"),
+            // $fireworks2 = $("#fireworks2"),
+            // $fireworks3 = $("#fireworks3"),
+
+            $bgend = $("#bgend"),
+            $players = $("#players"),
+            $ribbons = $("#ribbons"),
+            $teams = $("#teams"),
+            $logohoriz = $("#logohoriz"),
+            $network = $("#network"),
+            
+            tl;
+
+        tl = new TimelineMax({repeat:1, repeatDelay:4});
+
+        tl.add("start")
+          .from($animation, 0.5, {autoAlpha:0}, "+=0.5") 
+
+          
+          // frame 1 build in
+          .to(stars, 10, {top:200, ease: Power0.easeNone}, "start+=0.5")
+          .from(logolarge, .5, {opacity:0, scale:1.5, ease: Power1.easeIn}, "start+=0.5")
+          .to(logolarge, .5, {opacity:0}, "start+=3.0")
+
+
+          //planes 
+          .to(frameyellow, 1.8, {left:-473, ease: Power1.easeOut}, "start+=3.0")
+          .to(frameorange, 1.8, {left:107, ease: Power1.easeOut}, "start+=3.0")
+  
+
+
+          .to(bgend, .5, {opacity:1, ease: Power1.easeIn}, "start+=3.7")
+          .from(players, .8, {opacity:0, ease: Power1.easeOut}, "start+=4")
+          .from(ribbons, 1.8, {opacity:0, scale:1.5, ease: Power1.easeOut}, "start+=4")
+
+
+          .from(logohoriz, .5, {opacity:0, scale:1.5, ease: Power1.easeIn}, "start+=4.5")
+          .from(teams, .5, {opacity:0, scale:1.5, ease: Power1.easeIn}, "start+=5")
+
+          ;
+
+
+
+
+         
+
+
+          
+
+
+    });
+    </script>
+    
+
+</body>
+</html>
+

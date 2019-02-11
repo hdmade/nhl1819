@@ -1,0 +1,225 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	background-color:#333;
+	margin:0;
+}
+
+#animation{
+	visibility: hidden;
+}
+
+#banner {
+	position: absolute;
+	width: 300px;
+	height: 250px;
+	background-color: #004178;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+	border: 1px solid #ffffff;
+	box-sizing: border-box;
+}
+
+#network{
+	opacity: 1;
+	position: absolute;
+	left: 50px;
+	top: 206px;
+	width: 195px;
+	height: 29px;
+	background: url(images/network.png) no-repeat;
+}
+
+#teams{
+	opacity: 1;
+	position: absolute;
+	left: 152px;
+	top: 146px;
+	width: 239px;
+	height: 60px;
+	background: url(images/tunein.png) no-repeat;
+}
+
+#logohoriz{
+	opacity: 1;
+	position: absolute;
+	left: 157px;
+	top: 14px;
+	width: 161px;
+	height: 134px;
+	background: url(images/logo-small.png) no-repeat;
+}
+
+
+
+
+#players{
+	opacity: 1;
+	position: absolute;
+	left: 0px;
+	top: 50px;
+	width: 300px;
+	height: 250px;
+	background: url(images/player.png) no-repeat;
+}
+
+#ribbons{
+	opacity: 1;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 300px;
+	height: 250px;
+	background: url(images/ribbons.png) no-repeat;
+}
+
+#bgend{
+	opacity: 0;
+	position: absolute;
+	left: -1px;
+	top: -1px;
+	width: 300px;
+	height: 250px;
+	background: url(images/bg-endframe.png) no-repeat;
+}
+
+
+#orangemask{
+	position: absolute;
+	left: 150px;
+	top: 0px;
+	width: 150px;
+	height: 250px;
+	overflow: hidden;
+}
+
+#frameorange{
+	position: absolute;
+	left: -514px;
+	top: 0px;
+	width: 519px;
+	height: 250px;
+	background: url(images/frame-orange-large.png) no-repeat;
+}
+
+#yellowmask{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 150px;
+	height: 250px;
+	overflow: hidden;
+}
+
+#frameyellow{
+	position: absolute;
+	left: 150px;
+	top: 0px;
+	width: 519px;
+	height: 250px;
+	background: url(images/frame-yellow-large.png) no-repeat;
+}
+
+#logolarge{
+	position: absolute;
+	left: 58px;
+	top: 34px;
+	width: 231px;
+	height: 191px;
+	background: url(images/logo-large.png) no-repeat;
+}
+
+
+#bgdarkblue{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 300px;
+	height: 425px;
+	background: url(images/frame1bg.png) no-repeat;
+}
+
+#stars{
+	position: absolute;
+	left: 0px;
+	top: -150px;
+	width: 300px;
+	height: 500px;
+	background: url(images/stars.png) no-repeat;
+}
+
+#bgtagline{
+	position: absolute;
+	left: 0px;
+	top: -150px;
+	width: 300px;
+	height: 425px;
+	background: url(images/tagline-bg-tall.png) no-repeat;
+}
+
+
+#tagline1{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 300px;
+	height: 250px;
+	background: url(images/tagline1.png) no-repeat;
+}
+
+#tagline2{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 300px;
+	height: 250px;
+	background: url(images/tagline2.png) no-repeat;
+}
+
+
+#fireworkmask{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 300px;
+	height: 88px;
+	overflow: hidden;
+}
+
+#fireworks1{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100px;
+	height: 88px;
+	background: url(images/fireworks1.jpg) no-repeat;
+	
+}
+
+#fireworks2{
+	position: absolute;
+	left: 101px;
+	top: 0px;
+	width: 100px;
+	height: 88px;
+	background: url(images/fireworks2.jpg) no-repeat;
+	
+}
+
+#fireworks3{
+	position: absolute;
+	left: 201px;
+	top: 0px;
+	width: 100px;
+	height: 88px;
+	background: url(images/fireworks3.jpg) no-repeat;
+	
+}
+
+
+
+
+
+
