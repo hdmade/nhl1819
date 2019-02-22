@@ -54,14 +54,14 @@ body{
 
 /* FRAME 1 */
 
-#bg1{
+/*#bg1{
 	position: absolute;
 	left: -30px;
 	top: 0px;
 	width: 348px;
 	height: 250px;
 	background: url(images/bg1.png) no-repeat;
-}
+}*/
 
 #lockup{
 	position: absolute;
@@ -76,9 +76,9 @@ body{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 300px;
+	width: 900px;
 	height: 250px;
-	background: url(images/lockup2.jpg) no-repeat;
+	background: url(images/bg-long.jpg) no-repeat;
 }
 
 

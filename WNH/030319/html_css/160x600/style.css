@@ -53,22 +53,22 @@ body{
 
 /* FRAME 1 */
 
-#bg1{
+/*#bg1{
 	position: absolute;
 	left: -35px;
 	top: 0px;
 	width: 210px;
 	height: 600px;
 	background: url(images/bg1.png) no-repeat;
-}
+}*/
 
 #lockup{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 160px;
+	width: 480px;
 	height: 600px;
-	background: url(images/lockup.jpg) no-repeat;
+	background: url(images/bg-long.jpg) no-repeat;
 }
 
 
@@ -77,7 +77,7 @@ body{
 
 #teams_mask {
 		position: absolute;
-		left: 9px;
+		left: 7px;
 		top: 0px;
 		width: 160px;
 		height: 600px;
@@ -88,7 +88,7 @@ body{
 #teams{
 	position: absolute;
 	left: 0px;
-	top: 87px;
+	top: 95px;
 	width: 160px;
 	height: 68px;
 	background: url(images/teams.png) no-repeat;
@@ -96,7 +96,7 @@ body{
 
 #gotw_mask {
 		position: absolute;
-		left: 9px;
+		left: 7px;
 		width: 160px;
 		height: 600px;
 		overflow: hidden;
@@ -105,7 +105,7 @@ body{
 #gotw{
 	position: absolute;
 	left: 0px;
-	top: 146px;
+	top: 155px;
 	width: 160px;
 	height: 12px;
 	background: url(images/gotw.png) no-repeat;
@@ -113,7 +113,7 @@ body{
 
 #time_mask {
 		position: absolute;
-		left: 9px;
+		left: 7px;
 		width: 160px;
 		height: 600px;
 		overflow: hidden;
@@ -122,7 +122,7 @@ body{
 #time{
 	position: absolute;
 	left: 0px;
-	top: 164px;
+	top: 173px;
 	width: 160px;
 	height: 34px;
 	background: url(images/time.png) no-repeat;
@@ -188,8 +188,8 @@ body{
 
 #network{
 	position: absolute;
-	left: 9px;
-	top: 199px;
+	left: 7px;
+	top: 208px;
 	width: 248px;
 	height: 87px;
 	background: url(images/network.png) no-repeat;

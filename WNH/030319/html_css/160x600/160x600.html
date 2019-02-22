@@ -21,8 +21,12 @@
         <div id="bg3_mask">
           <div id="bg3"></div>
         </div>
+        
 
-        <div id="bg4"></div>
+        <div id="lockup"></div>
+
+
+
         
         <div id="teams_mask">
           <div id="teams"></div>
@@ -52,7 +56,6 @@
 
         
       <div id="lockup2"></div>
-        <div id="lockup"></div>
         
       </div>       
 
@@ -89,33 +92,36 @@
             $time_mask = $("#time_mask"),
             tl;
 
-        tl = new TimelineMax({repeat:1, repeatDelay:3});
+        tl = new TimelineMax({repeat:1, repeatDelay:5});
 
         tl.add("start")
           .from($animation, 0.5, {autoAlpha:0}, "+=0.5") 
 
-          .add("frame2", "+=1.7")
-          .to($lockup, .8, {opacity:0, ease: Power2.easeOut}, "frame2")
+          .add("frame2", "+=1.3")
+          .to($lockup, 1, {left:-320, ease: Power2.easeInOut}, "frame2+=.2")
+
+          // .to($lockup, .8, {opacity:0, ease: Power2.easeOut}, "frame2")
        
           .add("endframe", "+=0")
         
           .from($teams, 0.9, {xPercent:-100, ease: Power2.easeOut}, "teams+=0.2")
           .from($gotw_mask, 0.6, {width:0, ease: Power2.easeOut}, "teams+=0.7")
           .from($time_mask, .6, {width:0, ease: Power2.easeOut}, "teams+=0.9")
-          .from($starmask, .8, {width:0, ease: Power2.easeOut}, "teams+=0.9")
+          .from($starmask, .8, {width:0, ease: Power2.easeOut}, "teams+=-.2")
           .from($network, 0.5, {opacity:0}, "teams+=1.2")
 
-          .from($players, 0.8, {opacity:0}, "+=0.0")
+          .from($players, 0.8, {opacity:0}, "teams+=.4")
 
 
           .to($tag3, 0.25, {opacity:0}, "endframe")
           .to($bg1, .5, {left:160, ease: Power2.easeOut}, "endframe+=-.5")
          
-          .from($bg4, .9, {opacity:0}, "+=.5")
-          .to($bg4, .9, {opacity:0}, "+=.5")
-          .to($bg4, .9, {opacity:1}, "+=.5")
-          .to($bg4, .9, {opacity:0}, "+=.5")
-          .to($bg4, .9, {opacity:1}, "+=.5");
+          // .from($bg4, .9, {opacity:0}, "+=.5")
+          // .to($bg4, .9, {opacity:0}, "+=.5")
+          // .to($bg4, .9, {opacity:1}, "+=.5")
+          // .to($bg4, .9, {opacity:0}, "+=.5")
+          // .to($bg4, .9, {opacity:1}, "+=.5")
+          ;
          
 
 

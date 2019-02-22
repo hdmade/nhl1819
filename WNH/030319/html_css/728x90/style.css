@@ -62,14 +62,14 @@ body{
 	}
 
 
-#bg1{
+/*#bg1{
 	position: absolute;
 	left: -30px;
 	top: 0px;
 	width: 776px;
 	height: 90px;
 	background: url(images/bg1.png) no-repeat;
-}
+}*/
 
 #lockup{
 	position: absolute;
@@ -84,9 +84,9 @@ body{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 728px;
+	width: 1486px;
 	height: 90px;
-	background: url(images/lockup2.jpg) no-repeat;
+	background: url(images/bg-long.jpg) no-repeat;
 }
 
 
@@ -95,7 +95,7 @@ body{
 
 #teams_mask {
 		position: absolute;
-		left: 43px;
+		left: 47px;
 		top: 0px;
 		width: 728px;
 		height: 90px;
@@ -114,7 +114,7 @@ body{
 
 #gotw_mask {
 		position: absolute;
-		left: 43px;
+		left: 47px;
 		width: 728px;
 		height: 90px;
 		overflow: hidden;
@@ -131,7 +131,7 @@ body{
 
 #time_mask {
 		position: absolute;
-		left: 43px;
+		left: 47px;
 		width: 182px;
 		height: 250px;
 		overflow: hidden;
@@ -215,7 +215,7 @@ body{
 
 #network{
 	position: absolute;
-	left: 200px;
+	left: 204px;
 	top: 56px;
 	width: 248px;
 	height: 87px;
