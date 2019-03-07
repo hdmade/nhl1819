@@ -78,10 +78,10 @@ body{
 
 #mask3{
 	position: absolute;
-	left: 27px;
-	top: 93px;
-	width: 245px;
-	height: 73px;
+	left: 61px;
+	top: 52px;
+	width: 178px;
+	height: 145px;
 	overflow: hidden;
 }
 
@@ -89,8 +89,8 @@ body{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 245px;
-	height: 73px;
+	width: 178px;
+	height: 145px;
 	background: url(images/tag_brightest.png) no-repeat;
 }
 
