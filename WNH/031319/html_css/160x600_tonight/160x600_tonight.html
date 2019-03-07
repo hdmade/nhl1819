@@ -50,7 +50,7 @@
 
     </div>
 
-    
+
 
 
     <!-- Load TweenMax here -->
@@ -85,16 +85,11 @@
         tl.add("frame1", "+=0.5")
           .from($wnh, 0.5, {scaleX:0, scaleY:0, opacity:0, ease: Power3.easeOut}, "frame1")
 
-          .add("frame2", "+=1.0")
-          .from($tag_best, 0.25, {yPercent:100, opacity:0}, "frame2+=0.25")
-          .from($tag_teams, 0.25, {yPercent:-100, opacity:0}, "frame2+=0.25")
-          .from($tag_brightest, 0.25, {yPercent:100, opacity:0}, "frame2+=1.0")
-          .from($tag_stars, 0.25, {yPercent:-100, opacity:0}, "frame2+=1.0")
-          .from($tag_biggest, 0.25, {yPercent:100, opacity:0}, "frame2+=1.75")
-          .from($tag_stage, 0.25, {yPercent:-100, opacity:0}, "frame2+=1.75")          
+          .add("frame2", "+=0.5")
+          .from($tag_brightest, 0.5, {scaleX:0, scaleY:0, opacity:0, ease: Power3.easeOut}, "frame2")          
 
           .add("endframe", "+=1.0")
-          .to($wnh, 0.25, {y:-71}, "endframe")
+          .to($wnh, 0.25, {y:-111}, "endframe")
           .to($bg1, 0.5, {opacity:0}, "endframe")
           .to($tag, 0.25, {opacity:0}, "endframe")
           .from($teams, 0.25, {yPercent:100, opacity:0}, "endframe+=0.5")

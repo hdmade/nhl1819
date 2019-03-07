@@ -78,10 +78,10 @@ body{
 
 #mask3{
 	position: absolute;
-	left: 7px;
-	top: 319px;
-	width: 147px;
-	height: 32px;
+	left: 10px;
+	top: 301px;
+	width: 137px;
+	height: 111px;
 	overflow: hidden;
 }
 
@@ -89,8 +89,8 @@ body{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 147px;
-	height: 32px;
+	width: 137px;
+	height: 111px;
 	background: url(images/tag_brightest.png) no-repeat;
 }
 
@@ -169,7 +169,7 @@ body{
 #mask8{
 	position: absolute;
 	left: 49px;
-	top: 237px;
+	top: 228px;
 	width: 61px;
 	height: 79px;
 	overflow: hidden;
@@ -187,7 +187,7 @@ body{
 #wnh{
 	position: absolute;
 	left: 3px;
-	top: 92px;
+	top: 142px;
 	width: 156px;
 	height: 94px;
 	background: url(images/wnh.png) no-repeat;
