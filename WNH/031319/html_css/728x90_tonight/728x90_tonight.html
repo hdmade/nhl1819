@@ -87,12 +87,7 @@
 
           .add("frame2", "+=1.0")
           .to($wnh_large, 0.25, {opacity:0}, "frame2")
-          .from($tag_best, 0.25, {xPercent:100, opacity:0}, "frame2+=0.25")
-          .from($tag_teams, 0.25, {xPercent:-100, opacity:0}, "frame2+=0.25")
-          .from($tag_brightest, 0.25, {xPercent:100, opacity:0}, "frame2+=1.0")
-          .from($tag_stars, 0.25, {xPercent:-100, opacity:0}, "frame2+=1.0")
-          .from($tag_biggest, 0.25, {xPercent:100, opacity:0}, "frame2+=1.75")
-          .from($tag_stage, 0.25, {xPercent:-100, opacity:0}, "frame2+=1.75")          
+          .from($tag_brightest, 0.5, {opacity:0}, "frame2+=0.25")          
 
           .add("endframe", "+=1.0")
           .to($bg1, 0.5, {opacity:0}, "endframe")
