@@ -42,10 +42,10 @@ body{
 
 #mask1{
 	position: absolute;
-	left: 142px;
-	top: 11px;
-	width: 66px;
-	height: 32px;
+	left: 107px;
+	top: 32px;
+	width: 91px;
+	height: 25px;
 	overflow: hidden;
 }
 
@@ -53,17 +53,17 @@ body{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 66px;
-	height: 32px;
+	width: 91px;
+	height: 25px;
 	background: url(images/tag_best.png) no-repeat;
 }
 
 #mask2{
 	position: absolute;
-	left: 217px;
-	top: 11px;
-	width: 101px;
-	height: 32px;
+	left: 236px;
+	top: 32px;
+	width: 385px;
+	height: 25px;
 	overflow: hidden;
 }
 
@@ -71,17 +71,17 @@ body{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 101px;
-	height: 32px;
+	width: 385px;
+	height: 25px;
 	background: url(images/tag_teams.png) no-repeat;
 }
 
 #mask3{
 	position: absolute;
-	left: 335px;
-	top: 11px;
-	width: 150px;
-	height: 32px;
+	left: 107px;
+	top: 31px;
+	width: 514px;
+	height: 26px;
 	overflow: hidden;
 }
 
@@ -89,8 +89,8 @@ body{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 150px;
-	height: 32px;
+	width: 514px;
+	height: 26px;
 	background: url(images/tag_brightest.png) no-repeat;
 }
 
