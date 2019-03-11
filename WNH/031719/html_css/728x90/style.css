@@ -1,0 +1,225 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	background-color:#333;
+	margin:0;
+}
+
+#animation{
+	visibility: hidden;
+}
+
+#banner {
+	position: absolute;
+	width: 728px;
+	height: 90px;
+	background-color: #ffffff;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+	border: 1px solid #000000;
+	box-sizing: border-box;
+}
+
+
+#players{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 728px;
+	height: 90px;
+	background: url(images/players.png) no-repeat;
+}
+
+#starmask{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 728px;
+		height: 90px;
+		overflow: hidden;
+	}
+
+
+#star{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 728px;
+	height: 90px;
+	background: url(images/star.png) no-repeat;
+}
+
+
+#bg1_mask {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 728px;
+		height: 90px;
+		overflow: hidden;
+	}
+
+
+/*#bg1{
+	position: absolute;
+	left: -30px;
+	top: 0px;
+	width: 776px;
+	height: 90px;
+	background: url(images/bg1.png) no-repeat;
+}*/
+
+#lockup{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 728px;
+	height: 90px;
+	background: url(images/lockup.jpg) no-repeat;
+}
+
+#lockup2{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 1486px;
+	height: 90px;
+	background: url(images/bg-long.jpg) no-repeat;
+}
+
+
+
+/* ENDFRAME */
+
+#teams_mask {
+		position: absolute;
+		left: 47px;
+		top: 0px;
+		width: 728px;
+		height: 90px;
+		overflow: hidden;
+	}
+
+
+#teams{
+	position: absolute;
+	left: 0px;
+	top: 14px;
+	width: 728px;
+	height: 90px;
+	background: url(images/teams.png) no-repeat;
+}
+
+#gotw_mask {
+		position: absolute;
+		left: 47px;
+		width: 728px;
+		height: 90px;
+		overflow: hidden;
+	}
+
+#gotw{
+	position: absolute;
+	left: 0px;
+	top: 43px;
+	width: 182px;
+	height: 12px;
+	background: url(images/gotw.png) no-repeat;
+}
+
+#time_mask {
+		position: absolute;
+		left: 47px;
+		width: 182px;
+		height: 250px;
+		overflow: hidden;
+	}
+
+#time{
+	position: absolute;
+	left: 0px;
+	top: 57px;
+	width: 172px;
+	height: 34px;
+	background: url(images/time.png) no-repeat;
+}
+
+
+
+#lines_left{
+	position: absolute;
+	left: -728px;
+	top: 0px;
+	width: 300px;
+	height: 250px;
+	background: url(images/lines_left.png) no-repeat;
+}
+
+#lines_right{
+	position: absolute;
+	left: 728px;
+	top: 0px;
+	width: 600px;
+	height: 250px;
+	background: url(images/lines_right.png) no-repeat;
+}
+
+#bg2{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 300px;
+	height: 250px;
+	background: url(images/bg2.jpg) no-repeat;
+}
+
+
+#faceoff{
+	position: absolute;
+	left: 100px;
+	top: 32px;
+	width: 99px;
+	height: 62px;
+	background: url(images/faceoff.png) no-repeat;
+}
+
+#bg3_mask {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 728px;
+		height: 90px;
+		overflow: hidden;
+	}
+
+
+#bg3{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 728px;
+	height: 90px;
+	background: url(images/bg.jpg) no-repeat;
+}
+
+#bg4{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 728px;
+	height: 90px;
+	background: url(images/bg.jpg) no-repeat;
+}
+
+#network{
+	position: absolute;
+	left: 181px;
+	top: 64px;
+	width: 248px;
+	height: 87px;
+	background: url(images/network.png) no-repeat;
+}
+
+
