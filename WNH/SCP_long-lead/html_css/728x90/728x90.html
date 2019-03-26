@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>NHL Stanley Cup Playoffs 2017 | 728x90</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <meta name="ad.size" content="width=728, height=90">
+    <script type="text/javascript">var clickTag = "https://www.google.com";</script>
+
+</head>
+<body>
+
+    <div id="banner" onclick="javascript:window.open(window.clickTag);">
+
+      
+      
+      <div id="animation">
+
+      <img src="images/bg.jpg" class="bg" />
+        
+        <!-- END FRAME -->
+
+        <div id="logo_nbc" class="networks"></div>
+        <div id="logo_nbcsn" class="networks"></div>
+        <div id="logo_cnbc" class="networks"></div>
+        <div id="logo_usa" class="networks"></div>
+        <div id="logo_app" class="networks"></div>
+
+        <div id="begin"></div>
+
+        <div id="scp"></div> 
+
+        <div id="image"></div>
+
+        <!-- theres nothing like -->
+<!--         <div id="taglinetop"></div>
+ -->
+        <!-- Theres nothing like a cup raise -->
+        <div id="tagline1"></div>
+        <div id="tagline1outline"></div>
+
+        <!-- Theres nothing like playoff hockey -->
+
+        <div id="tagline2"></div>
+        <div id="tagline2outline"></div>
+
+      </div>
+
+    </div>
+			
+		<!-- Load TweenMax here -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>             
+    <script>
+    $(document).ready(function(){
+        var $animation = $("#animation"),
+
+            $bg = $(".bg"),
+            $begin = $("#begin"),
+            $image = $("#image"),
+            $networks = $(".networks"),
+            $scp = $("#scp"),
+            $tagline1 = $("#tagline1"),
+            $tagline1outline = $("#tagline1outline"),
+            $tagline2 = $("#tagline2"),
+            $tagline2outline = $("#tagline2outline"),
+
+            tl;
+
+        tl = new TimelineMax({repeat:2, repeatDelay:3.5});
+
+        tl.set($bg, {x:-75, scale:1.5})
+
+          .add("start")
+          .from($animation, 0.25, {autoAlpha:0}, "start+=0.5")
+
+          .add("frame1", "+=0.85")
+          .from($tagline1, 0.25, {opacity:0, scale:2, ease: Power1.easeOut}, "frame1")
+          .from($tagline1outline, 2, {autoAlpha:0, ease: RoughEase.ease.config({ template:  Power0.easeNone, strength: 1.5, points: 20, taper: "none", randomize: true, clamp: false})}, "frame1+=0.6")
+
+          .to($tagline1, 0.25, {opacity:0,}, "frame1+=3")
+          .to($tagline1outline, 0.25, {opacity:0,}, "frame1+=3") 
+
+          .from($tagline2, 0.25, {opacity:0, scale:2, ease: Power1.easeOut}, "frame1+=3.3")   
+          .from($tagline2outline, 2, {autoAlpha:0, ease: RoughEase.ease.config({ template:  Power0.easeNone, strength: 1.5, points: 20, taper: "none", randomize: true, clamp: false})}, "frame1+=3.7") 
+
+          .to($tagline2, 0.25, {opacity:0,}, "frame1+=6")
+          .to($tagline2outline, 0.25, {opacity:0,}, "frame1+=6")   
+
+          .add("endframe", "+=.2")
+          .to($tagline1, 0.25, {opacity:0}, "endframe")
+          .to($bg, 0.35, {x:25, ease: Power1.easeOut}, "endframe")
+          .from($image, 0.35, {xPercent:-100, ease: Power1.easeOut}, "endframe")
+          .from($scp, 0.35, {x:-25, opacity:0}, "endframe")
+          .from($begin, 0.35, {opacity:0}, "+=0.5")
+          .staggerFrom($networks, 0.35, {opacity:0}, 0.2, "+=0.35")
+
+          .to($bg, 8.4, {scale:1}, "start")
+
+
+    });
+    </script>
+    
+
+</body>
+</html>

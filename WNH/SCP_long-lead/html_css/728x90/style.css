@@ -1,0 +1,145 @@
+@charset "UTF-8";
+/* CSS Document*/
+
+body{
+	background-color:#333;
+	margin:0;
+}
+
+#animation {
+	visibility: hidden;
+}
+
+#banner {
+	position: absolute;
+	width: 728px;
+	height: 90px;
+	background-color: #000000;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+	border: 1px solid #ffffff;
+	box-sizing: border-box;
+}
+
+.bg {
+		position: absolute;
+		left: 0px;
+		top: 0px;	
+		width: 828px;
+		height: 90px;
+	}
+
+/* FRAME 1 */
+
+	#tagline1 {
+		position: absolute;
+		left: 33px;
+		top: 18px;	
+		width: 663px;
+		height: 54px;
+		background-image: url(images/tagline1.png);
+	}
+
+	#tagline1outline {
+		position: absolute;
+		left: 471px;
+		top: 20px;	
+		width: 227px;
+		height: 56px;
+		background-image: url(images/tagline1-outline.png);
+	}
+
+
+	#tagline2 {
+		position: absolute;
+		left: 21px;
+		top: 21px;	
+		width: 687px;
+		height: 48px;
+		background-image: url(images/tagline2.png);
+	}
+
+	#tagline2outline {
+		position: absolute;
+		left: 422px;
+		top: 22px;	
+		width: 288px;
+		height: 50px;
+		background-image: url(images/tagline2-outline.png);
+	}	
+
+
+/* END FRAME */
+	
+	#begin {
+		position: absolute;
+		left: 451px;
+		top: 7px;	
+		width: 171px;
+		height: 31px;
+		background-image: url(images/begin.png);
+	}
+
+	#image {
+		position: absolute;
+		left: 0px;
+		top: 0px;	
+		width: 183px;
+		height: 90px;
+		background-image: url(images/image.png);
+	}
+
+	#logo_nbc {
+		position: absolute;
+		left: 391px;
+		top: 50px;	
+		width: 44px;
+		height: 27px;
+		background-image: url(images/logo_nbc.png);
+	}
+
+	#logo_nbcsn {
+		position: absolute;
+		left: 449px;
+		top: 44px;	
+		width: 52px;
+		height: 39px;
+		background-image: url(images/logo_nbcsn.png);
+	}
+
+	#logo_cnbc {
+		position: absolute;
+		left: 518px;
+		top: 45px;	
+		width: 45px;
+		height: 36px;
+		background-image: url(images/logo_cnbc.png);
+	}
+
+	#logo_usa {
+		position: absolute;
+		left: 582px;
+		top: 54px;	
+		width: 41px;
+		height: 19px;
+		background-image: url(images/logo_usa.png);
+	}
+
+	#logo_app {
+		position: absolute;
+		left: 644px;
+		top: 48px;	
+		width: 35px;
+		height: 35px;
+		background-image: url(images/logo_app.png);
+	}
+
+	#scp {
+		position: absolute;
+		left: 173px;
+		top: 13px;	
+		width: 178px;
+		height: 64px;
+		background-image: url(images/scp.png);
+	}
