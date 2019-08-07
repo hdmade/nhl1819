@@ -1,0 +1,214 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	background-color:#333;
+	margin:0;
+}
+
+#animation{
+	visibility: hidden;
+}
+
+#banner {
+	position: absolute;
+	width: 728px;
+	height: 90px;
+	background-color: #ff2882;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+	border: 1px solid #ffffff;
+	box-sizing: border-box;
+}
+
+
+
+#mask1{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 520px;
+	height: 90px;
+	overflow: hidden;
+}
+
+
+#mask2{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 658px;
+	height: 90px;
+	overflow: hidden;
+}
+
+#logolarge{
+	position: absolute;
+	left: 200px;
+	top: 7px;
+	width: 729px;
+	height: 90px;
+	background: url(images/logolarge.png) no-repeat;
+}
+
+
+#logoendframe{
+	position: absolute;
+	left: 18px;
+	top: 7px;
+	width: 91px;
+	height: 76px;
+	background: url(images/logoendframe.png) no-repeat;
+}
+
+#meteors{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 729px;
+	height: 90px;
+	background: url(images/meteors-large.png) no-repeat;
+}
+
+#meteors2{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 729px;
+	height: 90px;
+	background: url(images/meteors-large.png) no-repeat;
+}
+
+#tagline1{
+	position: absolute;
+	left: 219px;
+	top: 18px;
+	width: 292px;
+	height: 55px;
+	background: url(images/tagline1.png) no-repeat;
+}
+
+#tagline2{
+	position: absolute;
+	left: 240px;
+	top: 13px;
+	width: 365px;
+	height: 65px;
+	background: url(images/tagline2.png) no-repeat;
+}
+
+
+#frame1bg{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 729px;
+	height: 180px;
+	background: url(images/frame1bg-large.png) no-repeat;
+}
+
+
+#frame2bg{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 729px;
+	height: 180px;
+	background: url(images/frame2bg-large.png) no-repeat;
+}
+
+#bgendframe{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 729px;
+	height: 180px;
+	background: url(images/bg-endframe.png) no-repeat;
+}
+
+#divider{
+	position: absolute;
+	left: 299px;
+	top: 11px;
+	width: 1px;
+	height: 68px;
+	background: url(images/divider.png) no-repeat;	
+}
+
+#divider{
+	position: absolute;
+	left: 299px;
+	top: 11px;
+	width: 1px;
+	height: 68px;
+	background: url(images/divider.png) no-repeat;	
+}
+
+#players{
+	position: absolute;
+	left: 469px;
+	top: 0px;
+	width: 138px;
+	height: 90px;
+	background: url(images/players.png) no-repeat;	
+}
+
+
+#mask-l{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 300px;
+	height: 90px;
+	overflow: hidden;
+}
+
+#match1{
+	position: absolute;
+	left: 129px;
+	top: 12px;
+	width: 150px;
+	height: 66px;
+	background: url(images/match1.png) no-repeat;	
+}
+
+
+
+/*mask r "left" is the distance from the divider line to the left of the screen*/
+#mask-r{
+	position: absolute;
+	left: 300px;
+	top: 0px;
+	width: 728px;
+	height: 90px;
+	overflow: hidden;
+}
+
+/*match 2 "left" is the distance from the divider line start of the text*/
+#match2{
+	position: absolute;
+	left: 18px;
+	top: 12px;
+	width: 149px;
+	height: 66px;
+	background: url(images/match2.png) no-repeat;	
+}
+
+
+#playerid{
+	position: absolute;
+	left: 525px;
+	top: 20px;
+	width: 192px;
+	height: 48px;
+	background: url(images/id.png) no-repeat;	
+}
+
+
+
+
+
+
+
+
